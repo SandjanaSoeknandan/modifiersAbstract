@@ -1,15 +1,16 @@
 package sr.unasat.modifiers.app;
 
 import sr.unasat.modifiers.model.Lecturer;
+import sr.unasat.modifiers.model.Person;
 import sr.unasat.modifiers.model.Student;
 
 public class Application{
     public static void main(String[] args) {
 
-        Student student = new Student("Java");
-        student.iLoveMethode();
+        Person studentPerson = new Student("Java");
+        studentPerson.iLove();
 
-        Lecturer lecturer = new Lecturer("Java");
-        lecturer.iLoveMethode();
+        Person lecturerPerson = new Lecturer("Java");
+        lecturerPerson.iLove();
     }
 }

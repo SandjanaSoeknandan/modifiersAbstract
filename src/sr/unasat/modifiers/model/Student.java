@@ -8,13 +8,14 @@ public class Student extends Person{
     }
 
     @Override
-    void iLove() {
+    public void iLove() {
+        introduce("Sandjana");
         System.out.println("My favorite course is " + favoriteCourse);
         countILoveAnswers++;
         System.out.println(countILoveAnswers);
     }
 
-    public void iLoveMethode(){
+    public void iLoveMethode() {
         iLove();
     }
 

@@ -8,7 +8,8 @@ public class Lecturer extends Person{
     }
 
     @Override
-    void iLove() {
+    public void iLove() {
+        introduce("Sandjana");
         System.out.println("My favorite subject to teach is " + favoriteCourse);
         countILoveAnswers++;
         System.out.println(countILoveAnswers);
